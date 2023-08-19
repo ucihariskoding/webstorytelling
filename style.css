@@ -19,7 +19,6 @@ div, section, span, ul, li, a, header{
 /*css reset*/
 
 header{
-    border: 1px solid black;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -42,40 +41,48 @@ header{
 }
 
 section{
-    border: 1px solid black;
     width: 100%;
     float: left;
     height: 100vh;
     position: relative;
 }
 
-#home{
-   background-color: #59405C;
+#begin{
+   background-color: #1D5B79;
 }
 
-#about{
-     background-color: #ED6663;
+#begin2{
+     background-color: #F3AA60;
 }
 
-#product{
-     background-color: #B52B65;
+#begin3{
+     background-color: #468B97;
 }
 
-#pricing{
-     background-color: #3C2C3E;
+#begin4{
+     background-color: #EF6262;
 }
 
 #contact{
      background-color: #B52B65;
 }
 
-h1{
+article{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #eedada;
+    
+    
 }
+
+h1 {
+    margin: 6px;
+    padding: 30px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
 
 
 
