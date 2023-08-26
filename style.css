@@ -66,12 +66,21 @@ section{
 #begin5{
      background-color: #B52B65;
 }
+#begin6{
+    background-color: rgb(20, 34, 46);
+}
+#begin7{
+    background-color: #B52B65;
+}
+#begin8{
+    background-color: #468B97;
+}
 
 article{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     
     
 }
