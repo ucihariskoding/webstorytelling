@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script src="fungsi.js"></script>
 
 <head>
     <meta charset="UTF-8">
@@ -83,8 +84,8 @@
                 yang sama di negara-negara yang berbeda.
             </p>
             <p>Ilustrasi yang paling mudah untuk menggambarkan contoh PPP adalah Indeks Big Mac.</p>
-            <p>Misalkan harga hamburger di Prancis seharga 2.84 Euro. Sedangkan harga hamburger yang <span style="color: burlywood;">sama kualitasnya</span>, di Amerika seharga 2.20 dolar. 
-                Maka PPP hamburger Prancis terhadap Amerika adalah <span style="font-style: oblique; color: yellow; "> 1.29 euro/ dolar.</span>
+            <p>Misalkan harga hamburger di Prancis seharga 2,84 Euro. Sedangkan harga hamburger yang <span style="color: burlywood;">sama kualitasnya</span>, di Amerika seharga 2,20 dolar. 
+                Maka PPP hamburger Prancis terhadap Amerika adalah <span style="font-style: oblique; color: yellow; "> 1,29 euro/ dolar.</span>
             </p>
             <p>Dengan kata lain, setiap 1 dolar untuk belanja hamburger di Amerika adalah sama dengan 1.29 euro hamburger di Prancis.</p>
         </article>
@@ -92,10 +93,21 @@
 
     <section id="begin9">
         <article>
-        <form action="">
 
-            
-        </form>    
+        </article>
+    </section>
+
+    <section id="konversi">
+        <article>
+            <h1>Konversi Nilai PPP</h1>
+            <p>Masukkan nilai barang/ jasa dalam di Amerika Serikat :</p>
+            <h4>contoh : harga iPhone 15 seharga 799 dolar misalnya.</h4>
+            <br>
+            <input type="number" id="usdInput">
+            <button onclick="konversippp()">Konversi</button>
+            <p>Hasil konversi PPP Indonesia : <span id="hasilKonversi"></span></p>
+            <h5>* nilai PPP Indonesia 2022 </h5>
+   
         </article>
     </section>
 </body>
