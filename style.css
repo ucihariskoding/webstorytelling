@@ -47,36 +47,12 @@ section{
     position: relative;
 }
 
-#begin{
-   background-color: #1D5B79;
+#begin, #begin2 ,#begin3 , #begin4{
+   background-color: #15133C;
 }
 
-#begin2{
-     background-color: #F3AA60;
-}
-
-#begin3{
-     background-color: #468B97;
-}
-
-#begin4{
-     background-color: #EF6262;
-}
-
-#begin5{
-     background-color: #B52B65;
-}
-#begin6{
-    background-color: rgb(20, 34, 46);
-}
-#begin7{
-    background-color: #722d4a;
-}
-#begin8{
-    background-color: #468B97;
-}
-#begin9{
-    background-color: #5c4697;
+#begin5, #begin6, #begin7, #begin8, #begin9{
+     background-color: #73777B;
 }
 #konversi{
     background-color: #8DDFCB;
@@ -102,8 +78,21 @@ h1 {
     font-size: 40px;
 }
 
+// --- pengaturan tabel ---
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
 
-
-
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 
 
