@@ -51,7 +51,7 @@ section{
    background-color: #15133C;
 }
 
-#begin5, #begin6, #begin7, #begin8, #begin9{
+#begin5, #begin6, #begin7, #begin8, #begin9, #begin10{
      background-color: #73777B;
 }
 #konversi{
@@ -63,6 +63,14 @@ article{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -60%);
+    
+    
+}
+article>#tabelapp{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-30%, -20%);
     
     
 }
@@ -82,7 +90,7 @@ h1 {
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
   }
 
   td, th {
@@ -94,5 +102,8 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
-
-
+ 
+#tabelppp {
+    display: flex;
+    flex-direction: row;
+}
