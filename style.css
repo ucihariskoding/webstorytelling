@@ -51,8 +51,12 @@ section{
    background-color: #15133C;
 }
 
-#begin5, #begin6, #begin7, #begin8, #begin9, #begin10{
+#begin5, #begin6, #begin7, #begin8, #begin9, #begin10, #begin11, #begin12{
      background-color: #73777B;
+}
+
+#penutup {
+    background-color: #898121;
 }
 #konversi{
     background-color: #8DDFCB;
